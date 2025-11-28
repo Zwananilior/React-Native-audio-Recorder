@@ -1,9 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
-import { Audio, AVPlaybackStatus } from 'expo-av';
-import { VoiceNote } from '../types';
-import { deleteFileIfExists } from '../utils/storage';
+import React, { useState, useEffet } from 'react';
+import { View, Text, TouchableOpacty, StyleSheet, Alert } from 'react-native';
+import { Audio, AVPlaybackStatus } rom 'expo-av';
+import { VoiceNote } from '../types'
+import { deleteFileIfExists } from '../uils/storage';
 
 type Props = {
   note: VoiceNote;
