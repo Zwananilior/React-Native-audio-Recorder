@@ -1,14 +1,13 @@
-## 📘 React Native Audi Journal
-This project is a digita Audio Journal Application built with React Native + Expo SDK 54.
-It allows users to recor voice notes, save them, play them back, search through them, manage settings, and optionally back up their notes.
+This project is a digital Audio Journal Application built with React Native + Expo SDK 54.
+It allows users to record voice notes, save them, play them back, search through them, manage settings, and optionally back up their notes.
 
 ## Installation & Setup
-1.Install dependencies- nm install 
+1.Install dependencies- npm install 
 2.Start the project- npx expo start --clear
 3.Open on device:
-  -Android → Expo G → Scan QR
-  -iOS → Camer app → Scan Q
-
+  -Android → Expo Go → Scan QR
+  -iOS → Camera app → Scan QR
+  
 ## How to Use the App
 ##Record a New Note##
 Tap the red floating microphone button
