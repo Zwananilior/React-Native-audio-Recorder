@@ -1,12 +1,12 @@
 
-mport React, { useContext, useEffect, useState } from 'react';
-import { iew, Text, TextInput, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
-import { seIsFocused, useNavigation } from '@react-navigation/native';
-import NteItem from '../components/NoteItem';
-import { oadNotes, persistNotes, VoiceNote } from '../utils/storage';
-import FoatingRecordButton from '../components/FloatingRecordButton';
-import  Ionicons } from '@expo/vector-icons';
-import { ettingsContext } from '../../App'; 
+import React, { useContext, useEffect, useState } from 'react';
+import { View, Text, TextInput, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { useIsFocused, useNavigation } from '@react-navigation/native';
+import NoteItem from '../components/NoteItem';
+import { loadNotes, persistNotes, VoiceNote } from '../utils/storage';
+import FloatingRecordButton from '../components/FloatingRecordButton';
+import { Ionicons } from '@expo/vector-icons';
+import { SettingsContext } from '../../App';  
 
 export default function HomeScreen() {
   const [notes, setNotes] = useState<VoiceNote[]>([]);
